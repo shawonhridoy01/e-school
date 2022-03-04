@@ -1,0 +1,120 @@
+@media (max-width: 320px) { 
+    h1{
+        font-size: 30px;
+        line-height: 50px;
+        
+    }
+    .inner-service{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+        /* testimonia responisve section start from here  */
+        .testimonial .inner-carousel-img img{
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+        .inner-carousel-box{
+            display: flex;
+            flex-direction: column;
+             align-items: center; 
+             justify-content: center;
+        }
+
+        /* testimonial responisve section end here  */
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 321px) and (max-width: 575.98px)  { 
+        /* banner responsive section start from here  */
+        .banner{
+            padding: 60px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-size: 37px;
+            line-height: 55px;
+            
+        }
+        p{
+            font-size: 15px;
+            margin-right: 20px;
+        
+            
+        }
+        .banner-inner-img{
+            margin-top: 40px;
+
+        }
+        /* banner responsive section start from here  */
+
+
+        /* service responsive section start from here  */
+        .inner-service{
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        /* service responsive section end here  */
+
+        /* testimonia responisve section start from here  */
+        .testimonial .inner-carousel-img img{
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+        .inner-carousel-box{
+            display: flex;
+            flex-direction: column;
+             align-items: center; 
+             justify-content: center;
+        }
+
+        /* testimonial responisve section end here  */
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* banner responsive section start from here  */
+    .banner{
+        padding: 60px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        font-size: 37px;
+    }
+    .banner p{
+        font-size: 15px;
+        margin-right: 20px;
+    
+        
+    }
+    .banner-inner-img{
+        margin-left: 30px;
+    }
+    /* banner responsive section start from here  */
+    /* service responsive section start from here  */
+    .inner-service h3{
+        font-size: 20px;
+    }  
+      .inner-service p{
+        font-size: 14px;
+    }
+    /* service responsive section  here  */
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
